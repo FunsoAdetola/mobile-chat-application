@@ -1,0 +1,54 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .homeOuterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+    color: white;
+  }
+  
+  .chat-icon{
+      background-image: url("https://images-na.ssl-images-amazon.com/images/I/41HrC4qt6YL.png");
+      height: 50%;
+      width: 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x: center;
+      background-position-y: 0;
+   
+  }
+  .start-button{
+    padding: 1rem;
+    border-radius:20px;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    transition: all .2s ease-in-out;
+  }
+  .start-button:hover{
+    color:white;
+    border: 5px solid  #54e346;
+    background-color:#54e346;
+    transform: scale(1.1);
+  }
+  
